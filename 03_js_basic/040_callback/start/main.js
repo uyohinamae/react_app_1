@@ -1,3 +1,7 @@
+function print(callback) {
+  const result = callback();
+}
+
 function fn(number) {
     return number * 2;
   }
