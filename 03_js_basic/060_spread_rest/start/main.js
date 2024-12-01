@@ -6,17 +6,20 @@ console.log(result);
 
 let arr1 = [1, 2, 3];
 let arr2 = [4, 5, 6];
-let newArr = [...arr1];
-
+let newArr = [...arr1, 10, ...arr2];
+let newArr1 = arr1
 console.log(newArr);
 
-// const obj = {
-//   name: "Tom",
-//   age: 22,
-// };
-// const newObj = { ...obj };
 
-// console.log(newObj);
+
+const obj = {
+  name: "Tom",
+  age: 22,
+};
+const newObj = { ...obj };
+newObj.name = 'john';
+
+console.log(newObj, obj);
 
 // const restA = (...argA) => console.log(argA);
 // restA(1, 3, 4)
