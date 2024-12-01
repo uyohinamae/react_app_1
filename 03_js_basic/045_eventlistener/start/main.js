@@ -8,3 +8,4 @@ btnEl.addEventListener('click' , (e) => {
     console.log(e.target.taxtContent);
     console.log('hello')
 })
+btnEl.addEventListener('click', helloFn)
