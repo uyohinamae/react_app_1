@@ -16,11 +16,11 @@ const fnArr = ([ country, state, city ]) => {
   console.log(`city: ${city}`);
 };
 
-const fnObj = ( country, state, city ) => {
+const fnObj = ( country, state,) => {
   console.log("---オブジェクト---");
   console.log(`country: ${country}`);
   console.log(`state: ${state}`);
-  console.log(`city: ${city}`);
+  // console.log(`city: ${city}`);
 };
 
 // fnArr(arr);
