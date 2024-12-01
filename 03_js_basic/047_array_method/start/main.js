@@ -10,8 +10,6 @@ for(let i = 0; i < arry.length; i++) {
 
 console.log(newArry);
 
-const newArry2 = arry.map(val => {
-    return val * 2;
-});
-const newArry3 = newarry2.filter(val => val > 50);
+const newArry2 = arry.map(val => val * 2).filter(val => val > 50);
+const newArry3 = newarry2;
 console.log(newAryy2)
