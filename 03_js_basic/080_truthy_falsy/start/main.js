@@ -22,7 +22,7 @@ console.log(Boolean(falsy));
 
 // 論理積 (&&) について
 const resultA = "" && "foo";
-const resultB = 2 && 1 && 0 && 3;
+const resultB = 2 && 1 && 0;
 const resultC = "foo" && 4;
 
 // console.log(resultA);
