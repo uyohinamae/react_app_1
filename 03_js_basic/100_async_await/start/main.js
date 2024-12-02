@@ -18,4 +18,4 @@ async function init() {
     // }).catch((c) => {
     //     console.log('catchが実行', c)
     // })    
-}
+
