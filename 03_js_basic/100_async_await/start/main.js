@@ -14,6 +14,7 @@ async function init() {
     } catch(e) {
         console.log('catchが実行' ,e)
     }
+    }
     
     // }).catch((c) => {
     //     console.log('catchが実行', c)
