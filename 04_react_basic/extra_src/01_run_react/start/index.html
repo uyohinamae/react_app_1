@@ -10,7 +10,17 @@
         <script type="text/babel">
             const appEl = document.querySelector('#app');
             const root = ReactDOM.createRoot(appEl);
-            root.render(<h1>こんにちわ</h1>);
+            // function Example() {
+            //     return <h1>Hellow React</h1>;
+            // }
+            const Example = () => {
+                return (
+                    <div>
+                        <h1>Hellow Components</h1>;    
+                    </div>
+                )
+            }
+            root.render(<Example/>);
         </script>
 </body>
 </html>
